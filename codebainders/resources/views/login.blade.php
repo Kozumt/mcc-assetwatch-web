@@ -252,9 +252,8 @@ button:active {
             </p>
 
 <!--Email-->
-            <form>
+            <form action="{{ route('dashboard') }}" method="GET">
 
-                <!-- Email -->
                 <div class="form-group">
                     <label for="email">Email</label>
 
